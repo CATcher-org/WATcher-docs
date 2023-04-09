@@ -13,16 +13,19 @@ This section guides you through the steps required to set up your computer for d
 ## Getting started
 
 **Prerequisites:**
+
 * [Node.js 14](https://nodejs.org/en/blog/release/v14.21.2/) -- (run `node -v` in your OS terminal to check the version of Node on your computer)
 
 **Recommended:**
+
 * IDE: Visual Studio Code
 
 **Steps:**
+
 1. Fork this repository into your Github account.
 2. Clone the forked repository into your computer.
 3. Install dependencies with npm: Run `npm install`
-    - *a list of warnings on outdated dependencies is to be expected and no action needs to be taken before proceeding.*
+    * *a list of warnings on outdated dependencies is to be expected and no action needs to be taken before proceeding.*
 4. Compile and start the application in browser: Run `npm run ng:serve:web`.
 
 -----------------------------------------------------------------------------------
