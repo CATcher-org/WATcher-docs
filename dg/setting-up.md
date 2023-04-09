@@ -8,7 +8,7 @@
 
 # Setting up
 
-This section guides you through the steps required to set up your computer for developing CATcher.
+This section guides you through the steps required to set up your computer for developing WATcher.
 
 ## Getting started
 

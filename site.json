@@ -1,7 +1,9 @@
 {
   "baseUrl": "",
-  "titlePrefix": "",
-  "titleSuffix": "",
+  "titlePrefix": "WATcher",
+  "style": {
+    "codeTheme": "light"
+  },
   "ignore": [
     "_markbind/layouts/*",
     "_markbind/logs/*",
@@ -15,10 +17,19 @@
   "pagesExclude": ["node_modules/*"],
   "pages": [
     {
-      "src": "index.md"
+      "glob": ["**/*.md"]
     },
     {
-      "glob": ["**/index.md", "**/*.md"]
+      "glob": ["dg/*.md"],
+      "frontmatter": {
+        "layout": "dg-layout.md"
+      }
+    },
+    {
+      "glob": ["ug/*.md"],
+      "frontmatter": {
+        "layout": "ug-layout.md"
+      }
     }
   ],
   "deploy": {
