@@ -37,7 +37,7 @@ Pop-up windows are blocked by default on Safari. Before launching WATcher, pleas
 
 <br>
 
-##  Reporting problems
+## Reporting problems
 
 If you face any issue in using WATcher, you can create a new issue in [WATcher issue tracker](https://github.com/CATcher-org/WATcher/issues).
 

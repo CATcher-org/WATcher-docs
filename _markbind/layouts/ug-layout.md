@@ -1,7 +1,5 @@
 {% include "_markbind/layouts/head.md" %}
 {% include "_markbind/layouts/topnav.md" %}
-{% set file =  "ug-sitenav.md" %}
-{% set sitenav_title =  "USER GUIDE" %}
-{% set pagenav =  true %}
+{% set pagenav =  false %}
 {% include "_markbind/layouts/body.md" %}
 {% include "_markbind/layouts/footer.md" %}
