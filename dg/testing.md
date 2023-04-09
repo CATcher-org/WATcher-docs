@@ -36,7 +36,8 @@ Jasmine is a behavior-driven development framework specific for testing JavaScri
 
 -------------------------------------------------------------------------------------
 
-## Angular testBed utility
+<!-- To be updated -->
+<!-- ## Angular testBed utility
 
 Because the above Jasmine framework does not test the DOM, we require the Angular TestBed Utility functions to set up component tests for testing HTML / view changes of components in WATcher.
 
@@ -45,8 +46,6 @@ Steps to set up component tests:
 2. Use `TestBed` function to create the component (fixture) to be tested
 3. Observe HTML changes in the fixture during testing of functions by querying HTML elements of the fixture
 
-<!-- to be updated -->
-
 You can refer to the [AssigneeComponent test](https://github.com/CATcher-org/CATcher/blob/master/tests/app/shared/issue/assignee/assignee.component.spec.ts) under our main repository for more details on how to set up a component test in CATcher.
 
 ****Resources:****
@@ -54,7 +53,7 @@ You can refer to the [AssigneeComponent test](https://github.com/CATcher-org/CAT
 2. [Angular Guide - Component Fixture](https://angular.io/api/core/testing/ComponentFixture) : Official Angular developer guide on `ComponentFixture`
 3. [Introduction to Unit Testing in Angular](https://www.digitalocean.com/community/tutorials/angular-introduction-unit-testing#:~:text=Fixtures%20have%20access%20to%20a,Angular%20to%20run%20change%20detection.) : Useful article on how to test component fixtures
 
--------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------  -->
 
 ## E2E testing
 
