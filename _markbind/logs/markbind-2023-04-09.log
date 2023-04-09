@@ -41,3 +41,34 @@ Error: ENOENT: no such file or directory, mkdir '/Users/echom/Downloads/CS3281/W
 2023-04-09T11:58:43.351Z - warn: Rebuilding all pages...
 2023-04-09T11:58:43.352Z - info: Generating pages...
 2023-04-09T11:58:43.416Z - info: Pages built
+2023-04-09T12:00:29.267Z - info: Website generation started at 8:00:29 PM
+2023-04-09T12:00:29.295Z - info: Building assets...
+2023-04-09T12:00:29.302Z - info: Assets built
+2023-04-09T12:00:29.302Z - info: Generating pages...
+2023-04-09T12:00:29.418Z - info: Pages built
+2023-04-09T12:00:29.489Z - info: Site data built
+2023-04-09T12:00:29.490Z - info: Website generation complete! Total build time: 0.246s
+2023-04-09T12:00:29.497Z - info: Serving "/Users/echom/Downloads/CS3281/WATcher-doc/_site" at http://127.0.0.1:8080
+2023-04-09T12:00:29.497Z - info: Press CTRL+C to stop ...
+2023-04-09T12:02:37.234Z - info: [8:02:37 PM] Reload for file change: /Users/echom/Downloads/CS3281/WATcher-doc/README.md
+2023-04-09T12:02:38.239Z - info: Rebuilding 1 pages
+2023-04-09T12:02:38.292Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/assets/dev-container-recommended-ext.png' found in file '/Users/echom/Downloads/CS3281/WATcher-doc/README.md'
+2023-04-09T12:02:38.292Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/assets/reopen-in-container.png' found in file '/Users/echom/Downloads/CS3281/WATcher-doc/README.md'
+2023-04-09T12:02:38.292Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/assets/open-a-remote-window.png' found in file '/Users/echom/Downloads/CS3281/WATcher-doc/README.md'
+2023-04-09T12:02:38.293Z - info: Site data built
+2023-04-09T12:02:38.293Z - info: Pages rebuilt
+2023-04-09T12:02:38.293Z - info: Website regeneration complete! Total build time: 0.056s
+2023-04-09T12:02:54.587Z - info: [8:02:54 PM] Reload for file change: /Users/echom/Downloads/CS3281/WATcher-doc/README.md
+2023-04-09T12:02:55.591Z - info: Rebuilding 1 pages
+2023-04-09T12:02:55.629Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/assets/dev-container-recommended-ext.png' found in file '/Users/echom/Downloads/CS3281/WATcher-doc/README.md'
+2023-04-09T12:02:55.629Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/assets/reopen-in-container.png' found in file '/Users/echom/Downloads/CS3281/WATcher-doc/README.md'
+2023-04-09T12:02:55.629Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/assets/open-a-remote-window.png' found in file '/Users/echom/Downloads/CS3281/WATcher-doc/README.md'
+2023-04-09T12:02:55.630Z - info: Site data built
+2023-04-09T12:02:55.630Z - info: Pages rebuilt
+2023-04-09T12:02:55.630Z - info: Website regeneration complete! Total build time: 0.041s
