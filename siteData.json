@@ -1,0 +1,146 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "README.md",
+      "title": "",
+      "headings": {
+        "watcher-product-site": "WATcher Product Site",
+        "setting-up": "Setting up",
+        "prerequisites": "Prerequisites",
+        "getting-started": "Getting Started",
+        "git-settings": "Git Settings",
+        "setting-up-alt": "Setting up [alt]",
+        "prerequisites-2": "Prerequisites",
+        "getting-started-2": "Getting Started"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "about-us.md",
+      "title": "About us",
+      "headings": {
+        "about-us": "About us",
+        "current-team-members": "Current team members",
+        "past-team-members": "Past team members",
+        "ay2019-20": "AY2019/20",
+        "ay2020-21": "AY2020/21",
+        "ay2020-21-summer-programme": "AY2020/21 Summer Programme",
+        "ay2021-22": "AY2021/22",
+        "ay2021-22-summer-programme": "AY2021/22 Summer Programme"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "dg/design.md",
+      "title": "DG: Design",
+      "headings": {
+        "design": "Design",
+        "views": "Views",
+        "services": "Services"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "dg/dev-workflow.md",
+      "title": "DG: Dev workflow",
+      "headings": {
+        "dev-workflow": "Dev workflow",
+        "choosing-an-issue": "Choosing an issue",
+        "submitting-prs": "Submitting PRs"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "dg/future-directions.md",
+      "title": "DG: Future directions",
+      "headings": {
+        "future-directions": "Future directions"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "dg/index.md",
+      "title": "",
+      "headings": {
+        "watcher-developer-guide": "WATcher Developer Guide"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "dg/project-management.md",
+      "title": "DG: Project management",
+      "headings": {
+        "project-management": "Project management",
+        "dev-commands": "Dev commands"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "dg/setting-up.md",
+      "title": "DG: Setting up",
+      "headings": {
+        "setting-up": "Setting up",
+        "getting-started": "Getting started",
+        "dev-commands": "Dev commands",
+        "debugging": "Debugging",
+        "writing-documentation": "Writing Documentation"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "dg/testing.md",
+      "title": "DG: Testing",
+      "headings": {
+        "testing": "Testing",
+        "dev-commands": "Dev commands",
+        "testing-with-jasmine": "Testing with Jasmine",
+        "e2e-testing": "E2E testing",
+        "running-e2e-tests": "Running E2E tests",
+        "troubleshooting-conflicts-between-the-versions-of-the-browser-and-browser-driver": "Troubleshooting conflicts between the versions of the browser and browser driver",
+        "protractor-configuration": "Protractor Configuration",
+        "how-the-e2e-tests-work": "How the E2E tests work"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "dg/tools.md",
+      "title": "DG: Tool stack",
+      "headings": {
+        "tools": "Tools",
+        "type-script": "Type Script",
+        "angular": "Angular",
+        "graphql": "GraphQL",
+        "oauth-2-0": "OAuth 2.0",
+        "testing-tools": "Testing tools"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "dg/user-workflow.md",
+      "title": "DG: User workflow",
+      "headings": {
+        "user-workflow": "User workflow"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "ug/index.md",
+      "title": "UG: for students",
+      "headings": {
+        "watcher-user-guide": "WATcher User Guide",
+        "getting-started": "Getting started",
+        "using-the-web-app": "Using the Web app",
+        "safari-users": "Safari users",
+        "reporting-problems": "Reporting problems"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}
