@@ -24,6 +24,18 @@ Given below are different commands you can use to run the tests.
 
 -------------------------------------------------------------------------------------
 
+## Individual Testing
+
+To test an individual file, replace the xxx below with the more specific file pattern in `test.ts`.
+```
+const context = require.context('../tests', true, /xxx\.spec\.ts$/);
+```
+
+You will also need to update `tsconfig.spec.json` to include only the relevant test files.
+
+This is relevant as not all tests in WATcher have been fixed and may produce compilation errors.
+
+
 ## Testing with Jasmine
 
 Jasmine is a behavior-driven development framework specific for testing JavaScript code. We follow the Jasmine Style Guide loosely for our tests (Link under [Resources for Jasmine](#resources-for-jasmine)). One main guideline is that a `describe` block should be created for each method / scenario under test, and an `it` block should be created for each property being verified.
