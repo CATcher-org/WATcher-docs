@@ -3,7 +3,6 @@
   "pages": [
     {
       "src": "README.md",
-      "title": "",
       "headings": {
         "watcher-product-site": "WATcher Product Site",
         "setting-up": "Setting up",
@@ -61,7 +60,6 @@
     },
     {
       "src": "dg/index.md",
-      "title": "",
       "headings": {
         "watcher-developer-guide": "WATcher Developer Guide"
       },
@@ -94,6 +92,7 @@
       "headings": {
         "testing": "Testing",
         "dev-commands": "Dev commands",
+        "individual-testing": "Individual Testing",
         "testing-with-jasmine": "Testing with Jasmine",
         "e2e-testing": "E2E testing",
         "running-e2e-tests": "Running E2E tests",
@@ -126,7 +125,6 @@
     },
     {
       "src": "index.md",
-      "title": "",
       "headings": {},
       "headingKeywords": {}
     },
