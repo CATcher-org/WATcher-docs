@@ -35,6 +35,9 @@ You will also need to update `tsconfig.spec.json` to include only the relevant t
 
 This is relevant as not all tests in WATcher have been fixed and may produce compilation errors.
 
+Within the file, prefix `describe` and `it` with f into `fdescribe` and `fit` to run specific tests.
+
+-------------------------------------------------------------------------------------
 
 ## Testing with Jasmine
 
