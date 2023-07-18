@@ -1,19 +1,14 @@
 name: Deploy MarkBind Site
 on:
   push:
-    branches: main
+    branches:
+      - main
 
-jobs:
-  build:
+jobs: 
+  build_and_deploy:
     runs-on: ubuntu-latest
-    name: test
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Build & Deploy MarkBind site
+        uses: MarkBind/markbind-action@v2
         with:
-          node-version: '14'
-      - run: npm i -g markbind-cli
-      - run: markbind build
-      - run: markbind deploy --ci
+          token: ${{ secrets.GITHUB_TOKEN }}
