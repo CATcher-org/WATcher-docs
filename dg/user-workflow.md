@@ -11,6 +11,8 @@
 <!-- Add relevant content -->
 ## Overview
 
+![](../images/user-workflow.png) {.center}
+
 Here is a brief explanation of each of its main features
 1. **Issue viewer**
    1. Users will first see the issue viewer when watching a github repo with WATcher. 

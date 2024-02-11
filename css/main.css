@@ -5,6 +5,11 @@ mark {
     padding-bottom: 0;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+}
+
 .indented {
     padding-left: 20px;
 }
