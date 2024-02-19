@@ -16,8 +16,23 @@ views is constructed using data provided by **services**. In the following secti
 
 ## Views
 
-<!-- Todo: fill the views -->
+There are primarily only two views accessible by the user - the Issues Dashboard and the Activity Dashboard.
+
+The diagram below shows how a user can navigate between the different views.
+
+![](../images/views.png)
+
+Each view is built out of components. As an example, the following diagram deconstructs the Issues Viewer component, which is the main component for the Issues Dashboard, to show how it is built using several smaller components. For instance, the `Card-viewComponent`, a child component of `IssuesViewerComponent`, is responsible for displaying PRs/issues of each user.
+
+![](../images/components.png)
 
 ## Services
 
-<!-- Todo: fill the services -->
+Services are classes that define business logic or communicate with the app's backend (GitHub). For ease of understanding, we have distinct services for the different types of data exchanged with the backend. Below are some examples:
+
+- `IssueService`: Responsible for fetching issues from GitHub.
+- `AuthService`: Responsible for initiating the authentication process, and querying / updating application state related to authentication.
+- `LabelService`: Responsible for retrieval and parsing of label data from GitHub repository for WATcher.
+
+Under the hood, several services use the `GitHubService` to communicate with GitHub.
+The `GitHubService` abstracts the details of communication with GitHub, away from the other services.
