@@ -81,3 +81,11 @@ The sequence diagram below shows the OAuth flow for the WATcher web app.
 ## Testing tools
 
 Described in the [Testing](testing.md) page.
+
+-------------------------------------------------------------------
+
+## Postman
+
+Postman is an API development tool that allows developers to design, test and debug APIs.
+
+More information can be found in the [API Testing](api-testing.md) page.
