@@ -82,6 +82,7 @@
       "headings": {
         "setting-up": "Setting up",
         "getting-started": "Getting started",
+        "possible-error-faced-when-serving-watcher-locally": "Possible error faced when serving WATcher locally",
         "dev-commands": "Dev commands",
         "debugging": "Debugging",
         "writing-documentation": "Writing Documentation"
