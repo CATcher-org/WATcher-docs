@@ -30,6 +30,24 @@ This section guides you through the steps required to set up your computer for d
 
 -----------------------------------------------------------------------------------
 
+## Possible error faced when serving WATcher locally
+
+**You may safely skip this section if you didn't run into the following error when serving locally.**
+![Sample-error](../assets/sample-error-local-run.png)
+
+**Error breakdown:**
+
+This is a known error when serving on MacOS with a python of version >= 3.11, caused by the following:
+- There is a `node-gyp` library that is used by `Node.js` to build and compile native modules that contain C++ code.
+- For older versions of `Node.js` (including Node 14 that WATcher is using), the source code of the `node-gyp` library, that is written in python, is not compatible with python version >= 3.11
+- For detailed information, read [this](https://stackoverflow.com/questions/74715990/node-gyp-err-invalid-mode-ru-while-trying-to-load-binding-gyp) stackoverflow thread
+
+**Possible workaround**
+- Alternative 1: Use a python of version <= 3.10 (e.g. by using conda environments). This is the preferred and easier workaround.
+- Alternative 2: Manually modify the source code generated for the `node-gyp` library (under `node_modules`) and remove the "U" mode when opening files. You will probably have to follow the linked stackoverflow thread above to know how to use this workaround.
+
+-----------------------------------------------------------------------------------
+
 ## Dev commands
 
 Given below are different commands you can use to run the app locally.
