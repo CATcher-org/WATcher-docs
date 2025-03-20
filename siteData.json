@@ -71,7 +71,8 @@
       "title": "DG: Project management",
       "headings": {
         "project-management": "Project management",
-        "dev-commands": "Dev commands"
+        "dev-commands": "Dev commands",
+        "automated-release": "Automated release"
       },
       "headingKeywords": {}
     },
