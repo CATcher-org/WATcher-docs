@@ -4,7 +4,7 @@
 </frontmatter>
 
 <!-- TODO: update logo with WATcher -->
-<img src="https://raw.githubusercontent.com/CATcher-org/CATcher/master/src/assets/images/CATcher_logo.png" alt="CATcher" width="420"/>
+<img src="{{baseUrl}}/images/watcher_logo_full.png" alt="CATcher" width="420"/>
 
 **WAT**cher is a sister software application of [**CAT**cher](https://catcher-org.github.io/). It uses GitHub as its data source and provides a more optimized dashboard for students/instructors to visualize individual's contribution to the specified project.
 
