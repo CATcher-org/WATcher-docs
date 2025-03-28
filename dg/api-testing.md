@@ -87,9 +87,9 @@ It would be quicker to duplicate an existing query as the authorization and sche
 </box>
 
 1. Add a new GraphQL query in the WATcher collection
-2. In the `Authorization` tab select `Basic Auth` as the Auth Type
-3. Use `{{username}}` and `{{token}}` in the username and password field respectively. This uses the variables in your environment
-4. In the `Query` tab, you will be able to import your schema, add your query and the relevant variables
+1. In the `Authorization` tab select `Basic Auth` as the Auth Type
+1. Use `{{ '{{' }}username{{ '}}' }}` and `{{ '{{' }}token{{ '}}' }}` in the username and password field respectively. This uses the variables in your environment
+1. In the `Query` tab, you will be able to import your schema, add your query and the relevant variables
 
 # Testing Queries
 1. In the `Query` tab, the arguments used for the select query can be changed in the `Variables` section.
