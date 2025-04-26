@@ -32,6 +32,21 @@
       "headingKeywords": {}
     },
     {
+      "src": "dg/api-testing.md",
+      "title": "DG: API Testing",
+      "headings": {
+        "api-testing": "API Testing",
+        "postman-set-up": "Postman Set Up",
+        "getting-started": "Getting Started",
+        "environment-variables": "Environment Variables",
+        "understanding-queries": "Understanding Queries",
+        "cursor": "Cursor",
+        "creating-a-new-query": "Creating A New Query",
+        "testing-queries": "Testing Queries"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "dg/design.md",
       "title": "DG: Design",
       "headings": {
@@ -114,7 +129,8 @@
         "angular": "Angular",
         "graphql": "GraphQL",
         "oauth-2-0": "OAuth 2.0",
-        "testing-tools": "Testing tools"
+        "testing-tools": "Testing tools",
+        "postman": "Postman"
       },
       "headingKeywords": {}
     },
