@@ -25,6 +25,8 @@ If you are a new developer, you'll find it useful to read the first few sections
 
 1. **The [_Testing_](testing.md) page** explains how WATcher is being tested.
 
-1. **The [_Project management_](project-management.md) page** has information on project management activities to be done by senior members of the dev team.
+1. **The [_API testing_](api-testing.md) page** explains how Postman is being used to test and create new queries.
 
-1. **The [_Future directions_](future-directions.md) page** lists some ideas for improving WATcher in the future.
+2. **The [_Project management_](project-management.md) page** has information on project management activities to be done by senior members of the dev team.
+
+3. **The [_Future directions_](future-directions.md) page** lists some ideas for improving WATcher in the future.
