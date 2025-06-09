@@ -70,11 +70,17 @@ WATcher uses the OAuth 2.0 protocol to authenticate users. Below is a summary of
 
 3. Authentication is complete, and WATcher can now use the access token when it uses the GitHub API for its logic (e.g. submitting new issues, editing existing issues)
 
-The authentication process is kicked off in the `AuthComponent`, but the code that co-ordinates steps 1 and 2 can be found in `AuthService`. Step 2 requires a client secret granted to WATcher. To protect this, we run a web service, [gatekeeper](https://github.com/WATcher-org/gatekeeper) that executes step 2 on behalf of the client WATcher app. More details on Github's OAuth implementation can be found [here](https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps)
+The authentication process is kicked off in the `AuthComponent`, but the code that co-ordinates steps 1 and 2 can be found in `AuthService`. Step 2 requires a client secret granted to WATcher. To protect this, we run a web service, [gatekeeper](https://github.com/CATcher-org/gatekeeper) that executes step 2 on behalf of the client WATcher app. More details on Github's OAuth implementation can be found [here](https://docs.github.com/en/developers/apps/building-oauth-apps/authorizing-oauth-apps)
 
 The sequence diagram below shows the OAuth flow for the WATcher web app.
 <br/><br/><br/>
 ![](../images/oauth-sequence-diagram.png)
+
+<box type="info">
+    The gatekeeper web service is managed and deployed seperately using heroku. This service is required due to security-related limitations imposed by Github, that prevent developers from implementing the OAuth Web Application Flow on a client-side only application. CATcher team is also responsible for managing the deployment of our gatekeeper service accordingly.
+    <br/><br/>
+    In the scenario where you are required to redeploy catcher-auth, you will need access as a collaborator on heroku to catcher-auth, do reach out to the project owner to be added as a collaborator.
+</box>
 
 -------------------------------------------------------------------
 
